@@ -1,0 +1,57 @@
+body{
+       height: 100vh;
+       margin: 0;
+       padding: 0;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       
+}
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    font-family: 'roboto',sans-serif;
+    transform: rotate(-90deg);
+    letter-spacing: 14px;
+    margin: -90px;
+    
+}
+
+img{
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+}
+
+.box{
+    height: auto;
+    width: 500px;
+    overflow: hidden;
+}
+.carrusel{
+    display: flex;
+    transform: translateX(0);
+    transition: transform 0.5 ease-in-out;
+    
+}
+
+.botones{
+    display: flex;
+    justify-content: space-between;
+}
+
+button{
+    background-color: rgb(8, 49, 6);
+    color: white;
+    border: none;
+    width: 49%;
+    padding: 10px;
+}
+
+button:hover{
+    opacity: 0.9;
+}
